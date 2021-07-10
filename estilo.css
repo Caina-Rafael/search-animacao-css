@@ -1,0 +1,56 @@
+
+
+body{
+    background: #FF5722;
+    padding: 0%;
+    margin: 0%;
+}
+
+.pesquisa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    padding: 10px;
+    background: #37474F;
+    border-radius: 40px;
+}
+
+.btn{
+    color: #FF5722;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.txt-pesquisa{
+   border: none;
+   background: none;
+   outline: none;
+   float: left;
+   line-height: 40px;
+   color: white;
+   padding: 0;
+   font-size: 16px;
+   transition: 0.4s;
+   width: 0px;
+}
+
+.pesquisa:hover > .txt-pesquisa{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.pesquisa:hover > .btn{
+    background: white;
+    color: #FF5722;
+    border-radius: 50%;
+}
+    
